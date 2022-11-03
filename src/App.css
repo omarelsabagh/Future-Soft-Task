@@ -1,0 +1,38 @@
+body{
+  background-color: #FFF2DF;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child{
+
+background-color: #fff;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #E7E7E7;
+padding: 20px;
+
+}
+
+.oneCar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.btn-control{
+  width: 150px;
+}
